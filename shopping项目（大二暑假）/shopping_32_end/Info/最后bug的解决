@@ -1,0 +1,37 @@
+张文斌：
+	index.jsp首页的商品分类问题 要进入type.jsp
+	search_detail.jsp的登陆后重新进入页面调用search.do
+时，get与post方法的错误使用。
+
+	修改：  前台有搜索框的页面中，搜索框的method由post改为get...........
+ 
+     zhang.js中 这一句的img 的src修改 $("body").append("<a href='javascript:;' id='back_top' title='Top'><img src='./images/toTop.gif' style='height:31px;height:31px'></a>");......................
+
+     index.jsp和type.jsp页面加入相应的代码、导入js、css和img文件加
+     
+             后台打类小类和公告页面加入特效，后台商品页面搜索框的完善，显示大类小类的js合并到zhang.js()，修改GoodsManage.jsp、goods_add.jsp和goods_modify.jsp
+     搜索页面ShowManageSearchServlet的改动，商品dao的删除商品方法有改动。
+     
+             前台的goods_detail.jsp修改购买按钮(当商品缺货时不显示购买按钮)。
+             
+             后台的ShowManageGoodsDetailServlet修改，goods_modify.jsp页面修改(接收参数pid).
+             
+            显示搜索排行的js修改。后台添加商品页面加入自动生成折扣率的js(zhang.js添加一个函数、页面的折扣率框添加点击事件)。
+            
+            后台的商品详细页面修改折扣率的显示。search_deal.jsp页面的购买按钮修改
+问题：当一个订单中商品超过两件的时候下单成功，订单详情页面中商品名称会重复很多遍
+
+            结账时收货人不能和登陆的用户对应。
+
+宋旭东：
+	OrderManage.jsp后台的分页，做成会员管理，商品管理一样的模式
+	前台商品数量输入的规范问题
+	
+李轶翔：
+	goodsDetail.jsp添加评论格式问题,跳转
+	完善type.jsp的功能
+	
+		
+8月31号
+	type.jsp的完善
+	订单细则商品名称的重复问题
